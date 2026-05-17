@@ -76,9 +76,12 @@ DOI: [10.1038/s41597-025-04374-5](https://doi.org/10.1038/s41597-025-04374-5)
 ```python
 from google.colab import drive
 drive.mount('/content/drive')
+```
 
+```bash
 git clone https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git
 cd REPOSITORY_NAME
+```
 
 3. Run notebooks in the following order
 Step	Notebook	Description
@@ -89,12 +92,14 @@ Step	Notebook	Description
 
 Citation
 If you use this code, please cite:
+```bibtex
 @mastersthesis{Semushina2026,
   author = {Semushina, M.A.},
-  title = {Development and evaluation of machine learning methods for cervical cancer cytological screening},
-  school = {Moscow Institute of Physics and Technology (MIPT)},
+  title = {Development and evaluation...},
+  school = {MIPT},
   year = {2026}
 }
+```
 License
 MIT License
 
