@@ -64,8 +64,7 @@ The experiments use the publicly available **HMCHH-TCT-CellDet** dataset:
 | Image size | 2048 × 2048 pixels |
 | Patches (after splitting) | 333 per slide |
 
-**Source:** Zhang X. et al. "A large annotated cervical cytology images dataset for AI models to aid cervical cancer screening". *Scientific Data*, 2025.  
-DOI: [10.1038/s41597-025-04374-5](https://doi.org/10.1038/s41597-025-04374-5)
+**Source:** Zhang X. et al. "A large annotated cervical cytology images dataset for AI models to aid cervical cancer screening". *Scientific Data*, 2025. DOI: [10.1038/s41597-025-04374-5](https://doi.org/10.1038/s41597-025-04374-5)
 
 ---
 
@@ -81,8 +80,8 @@ drive.mount('/content/drive')
 ### 2. Clone this repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git
-cd REPOSITORY_NAME
+git clone https://github.com/marinasemushina/cervical-cancer-detection.git
+cd cervical-cancer-detection
 ```
 
 ### 3. Run notebooks in the following order
