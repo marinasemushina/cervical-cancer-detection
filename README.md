@@ -88,13 +88,13 @@ cd REPOSITORY_NAME
 ### 3. Run notebooks in the following order
 Step	Notebook	Description
 
-1	SSL(SimSiam).ipynb	Self-supervised pre-training on unlabeled data
+1.	SSL(SimSiam).ipynb	Self-supervised pre-training on unlabeled data
 
-2	Basline(ImageNet).ipynb	Baseline training with ImageNet initialization
+2.	Basline(ImageNet).ipynb	Baseline training with ImageNet initialization
 
-3	SimSiam+FasterRCNN.ipynb	Fine-tuning with SimSiam-initialized backbone
+3.	SimSiam+FasterRCNN.ipynb	Fine-tuning with SimSiam-initialized backbone
 
-4	Test_basline + TTA.ipynb	Evaluation with baseline TTA and adaptive TTA
+4.	Test_basline + TTA.ipynb	Evaluation with baseline TTA and adaptive TTA
 
 Citation
 If you use this code, please cite:
