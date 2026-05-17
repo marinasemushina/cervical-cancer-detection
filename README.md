@@ -78,12 +78,14 @@ from google.colab import drive
 drive.mount('/content/drive')
 ```
 
+### 2. Clone this repository
+
 ```bash
 git clone https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git
 cd REPOSITORY_NAME
 ```
 
-3. Run notebooks in the following order
+### 3. Run notebooks in the following order
 Step	Notebook	Description
 1	SSL(SimSiam).ipynb	Self-supervised pre-training on unlabeled data
 2	Basline(ImageNet).ipynb	Baseline training with ImageNet initialization
