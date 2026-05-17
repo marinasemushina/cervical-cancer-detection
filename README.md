@@ -19,7 +19,7 @@ The project implements a three-stage approach for detecting abnormal cervical ce
 ---
 
 ## Repository structure
-
+```
 ├── SSL(SimSiam).ipynb # SimSiam pre-training on unlabeled data
 
 ├── Basline(ImageNet).ipynb # Baseline Faster R-CNN with ImageNet weights
@@ -28,7 +28,7 @@ The project implements a three-stage approach for detecting abnormal cervical ce
 
 └── Test_basline + TTA.ipynb # Evaluation with baseline TTA and adaptive TTA
 
-
+```
 ---
 
 ## Results
